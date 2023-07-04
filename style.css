@@ -1,0 +1,170 @@
+#container{
+    height: 750px;
+    width: 800px;
+    background-color:lightblue;
+    margin-top: 0;
+    margin-left: 21%;
+    /* align-items: center; */
+    justify-content: center;
+    align-items: center;
+}
+
+#headingtag{
+
+    margin-left: 35%;
+    margin-top: 0%;
+    font-size: 22px;
+    color: slateblue;
+
+}
+.imggg{
+    height: 26px;
+    width: 30px;
+}
+#input1{
+    height: 78px;
+    border: none;
+    margin-top: 9px;
+    border-radius: 52px;
+    width: 533px;
+    font-size: 20px;
+    color: lightslategrey;
+    margin-left: 49px;
+}
+#input1:hover{
+    background-color: lightgray;
+    color:black;
+}
+
+#userinput{
+    height:100px;
+    width: 80%;
+    margin-left:10%;
+    background-color: pink;
+    align-items: center;
+}
+
+
+
+#header-image{
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    margin-top: 22px;
+}
+
+
+#header-submit-button{
+    height: 50px;
+    width: 50px;
+    margin-top: 21px;
+    position: absolute;
+
+}
+
+#header-submit-button:hover{
+
+ color:blue;
+ height:52px;
+ width:52px;
+}
+/* for lists */
+
+#myList{
+    width: 80%;
+    margin-left:10%;
+    margin-top:1%;
+    background-color: rgb(199, 229, 29);
+}
+
+
+li{
+    height:75px;
+    list-style-type: none;
+
+}
+
+li:hover{
+   background-color: rgb(223, 35, 98);
+   color: pink;
+
+}
+
+input.class-checkbox {
+    width: 24px;
+    height: 24px;
+}
+
+
+/* .class-checkbox{
+ margin-left:0px;
+
+} */
+
+.class-content{
+
+margin-left: 20px;
+
+font-size: 30px;
+
+}
+
+
+.class-deletebtn{
+ margin-right: 0px;
+ height:30px;
+ width:30px;
+ visibility: hidden;
+ position: initial;
+ margin-right: 190px;
+ margin-top: 17px;
+}
+
+.neeche{
+    margin-top:10px;
+}
+
+
+li:hover>.class-deletebtn{
+    visibility: visible;
+}
+/* .class-deletebtn:hover{
+   
+
+    height:40px;
+    width:40px;
+} */
+
+#footer{
+    height: 58px;
+    width: 80%;
+    margin-left: 10%;
+    position: absolute;
+    bottom: 0px;
+    font-size: larger;
+}
+
+
+#taskRecord{
+    color: darkslategrey;
+    font-weight: 900;
+}
+
+
+
+#DeleteAll{
+    color: #d31717;
+    background: #b1a582;
+    margin-left: 87px;
+    height: 50px;
+    width: 179px;
+    font-weight: 900;
+    border-radius: 33px;
+}
+
+#DeleteAll:hover{
+    height:60px;
+    width: 200px;
+    color:black;
+}
+
